@@ -8,7 +8,7 @@
 
 ## Steps
 
-**Step 1** : Create a database to store the data using a Dimensional Modelled Design. (MSSQL / MySQL / Postgres)
+**Step 1** : Create a database to store the data using a Dimensional Modeling Design. (MSSQL / MySQL / Postgres)
 
 Output - SQL Scripts
 
