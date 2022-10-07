@@ -58,3 +58,17 @@ Output – Python programme
 | Duration | String | Total Duration - in minutes or number of seasons |
 | Listed\_in | String | Genre |
 | description | String | The summary description |
+
+
+# How to use the solution
+
+Print arguments:
+
+```bash
+python -m netflix_etl --help
+```
+
+Run:
+```
+ python -m netflix_etl -c config.json -db Linkfire -f netflix_titles.csv -r True
+```

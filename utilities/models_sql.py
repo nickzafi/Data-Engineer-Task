@@ -52,7 +52,6 @@ show_director = Table(
 
 class Show(Base):
     __tablename__ = "show"
-    # __table_args__ = (UniqueConstraint("show_id", "id"), {"schema": "Linkfire"})
 
     id = Column(
         Integer,
@@ -94,7 +93,6 @@ class Show(Base):
 
 class Genre(Base):
     __tablename__ = "genre"
-    # __table_args__ = {"schema": "Linkfire"}
 
     genre_id = Column(Integer, primary_key=True)
     genre = Column(VARCHAR(45))

@@ -25,6 +25,7 @@ def argparse_specs():
     parser = argparse.ArgumentParser(
         description="ETL the netflix records from csv to database"
     )
+
     required_args = parser.add_argument_group("required arguments")
     optional_args = parser.add_argument_group("optional arguments")
 
@@ -36,6 +37,7 @@ def argparse_specs():
         "-c", "--config", type=str, help="db connection configuration file"
     )
     optional_args.add_argument("-r", "--report", default=False, help="get data report")
+
     args = parser.parse_args()
     return args
 
